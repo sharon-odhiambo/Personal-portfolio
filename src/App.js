@@ -98,11 +98,10 @@ function App() {
               <a href="https://github.com/sharon-odhiambo/World-Countries-Tour" target="_blank" rel="noreferrer" className="bg-info">See on Github</a>
               <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="bg-info"><strong>Live Demo Link</strong></a>
             </span>
-            <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">HTML</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">React</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Redux</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">React Bootstrap</button>
+            <div className="btn">
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">React</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Redux</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">React Bootstrap</button>
             </div>
           </div>
           <div className="card m-1 mb-5">
@@ -120,10 +119,9 @@ function App() {
               <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="bg-info"><strong>Live Demo Link</strong></a>
             </span>
             <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">HTML</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">React</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Redux</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">React Bootstrap</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">React</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Redux</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">React Bootstrap</button>
             </div>
           </div>
           <div className="card m-1 mb-5">
@@ -140,8 +138,8 @@ function App() {
               <a href="https://github.com/sharon-odhiambo/Vet-clinic-database" target="_blank" rel="noreferrer" className="bg-info">See on Github</a>
             </span>
             <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Ruby</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">SQL</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Ruby</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">SQL</button>
             </div>
           </div>
           <div className="card m-1 mb-5">
@@ -159,10 +157,9 @@ function App() {
               <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="bg-info"><strong>Live Demo Link</strong></a>
             </span>
             <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">HTML</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">CSS</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">JavaScript</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Bootstrap</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">HTML</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">CSS</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">JavaScript</button>
             </div>
           </div>
           <div className="card m-1 mb-5">
@@ -180,10 +177,9 @@ function App() {
               <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="bg-info"><strong>Live Demo Link</strong></a>
             </span>
             <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">HTML</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">CSS</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">JavaScript</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Webpack</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">CSS</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">JavaScript</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Webpack</button>
             </div>
           </div>
           <div className="card m-1 mb-5">
@@ -202,10 +198,9 @@ function App() {
               <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="bg-info"><strong>Live Demo Link</strong></a>
             </span>
             <div className="btn me-3 pb-1">
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">HTML</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Bootstrap</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">JavaScript</button>
-              <button type="button" className="btn btn-sm border-secondary rounded-2 btn-outline-warning text-primary">Webpack</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Bootstrap</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">JavaScript</button>
+              <button type="button" className="btn btn-sm border-secondary rounded-0 btn-outline-warning text-primary">Webpack</button>
             </div>
           </div>
         </div>
@@ -215,14 +210,14 @@ function App() {
           <div className="container">
             <h3 className="h4 text-dark pt-5 mt-5">My Technical Skills</h3>
             <ul className="skills">
-              <li><img className="skill-img" width="150" height="150" src={jav} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={react} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={red} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={css} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={html} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={rb} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={ts} alt="skill" /></li>
-              <li><img className="skill-img" width="150" height="150" src={node} alt="skill" /></li>
+              <li><img className="skill-img" src={jav} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={react} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={red} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={css} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={html} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={rb} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="120" src={ts} alt="skill" /></li>
+              <li><img className="skill-img" width="120" height="150" src={node} alt="skill" /></li>
             </ul>
           </div>
         </div>
