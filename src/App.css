@@ -1,0 +1,76 @@
+.card-img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.other-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.links {
+  justify-content: space-around;
+  padding: 5px 10px;
+}
+
+.links a {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px;
+  color: #fff;
+  padding: 5px;
+}
+
+.row {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px;
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  gap: 10px;
+}
+
+.skills-img {
+  width: 100px;
+  height: 100px;
+}
+
+.resume-btn a {
+  text-decoration: none;
+}
