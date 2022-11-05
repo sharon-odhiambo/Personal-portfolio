@@ -8,7 +8,7 @@ const Skills = () => (
   <section>
     <div className="container d-flex">
       <div className="container">
-        <h3 className="h4 text-light pt-5 mt-5 d-flex justify-content-center">My Technical Skills</h3>
+        <h2 className="text-light pt-5 pb-5 d-flex justify-content-center">My Technical Skills</h2>
         <ul className="skills">
           <li><img className="skill-img" src={jav} alt="skill" /></li>
           <li><img className="skill-img" width="120" height="120" src={react} alt="skill" /></li>
