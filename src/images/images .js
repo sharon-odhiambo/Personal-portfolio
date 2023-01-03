@@ -18,9 +18,11 @@ const react = require('./react.png');
 const red = require('./redux.png');
 const sq = require('./sql.png');
 const rb = require('./ruby.png');
-const res = require('./resume.pdf');
+const res = require('./resume.docx');
+const jet = require('./jet-log.png');
+const budg = require('./budg.jpeg');
 
 export {
   salama, world, space, lead, list, vet, gh,
-  twit, angel, node, git, link, html, css, jav, ts, react, red, sq, rb, res,
+  twit, angel, node, git, link, html, css, jav, ts, react, red, sq, rb, res, jet, budg,
 };
