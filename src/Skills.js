@@ -8,7 +8,7 @@ import {
   react, red, rb,
 } from './images/images ';
 
-export class Skills extends PureComponent {
+class Skills extends PureComponent {
   render() {
     const settings = {
       infinite: false,
