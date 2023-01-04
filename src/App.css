@@ -59,8 +59,28 @@ body {
   border-radius: 50%;
 }
 
+.border span {
+  display: flex;
+  align-self: center;
+  border: 1px solid #efa649;
+  border-radius: 50%;
+  padding: 30%;
+}
+
+.border p {
+  border: 1px solid #efa649;
+  padding: 10%;
+  width: 150px;
+}
+
 .back h1 span {
   border-bottom: 3px solid #efa649;
+}
+
+.border span:hover,
+.border p:hover {
+  animation-name: hoverPop;
+  animation-duration: 4s;
 }
 
 .display-2,
@@ -88,27 +108,7 @@ body {
 .bod {
   color: #efa649;
   text-decoration: none;
-  font-weight: bold;;
-}
-
-.border span {
-  display: flex;
-  align-self: center;
-  border: 1px solid #efa649;
-  border-radius: 50%;
-  padding: 30%;
-}
-
-.border p {
-  border: 1px solid #efa649;
-  padding: 10%;
-  width: 150px;
-}
-
-.border span:hover,
-.border p:hover {
-  animation-name: hoverPop;
-  animation-duration: 4s;
+  font-weight: bold;
 }
 
 .arrow {
