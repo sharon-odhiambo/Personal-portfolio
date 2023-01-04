@@ -27,7 +27,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/jet-log-frontend" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://the-awesome-berkay-akbas-site.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://the-awesome-berkay-akbas-site.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Rails-Budget-App" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/World-Countries-Tour" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
         </div>
       </div>
@@ -78,8 +78,7 @@ const Works = () => (
           style={{ backgroundImage: `url(${space}` }}
           className="card-img"
         />
-        <div>
-          {' '}
+        <div className="desc">
           <h2 className="h4 card-title">
             Space Travellers
           </h2>
@@ -90,7 +89,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/SpaceX-Data" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
 
         </div>
@@ -100,8 +99,7 @@ const Works = () => (
           style={{ backgroundImage: `url(${vet}` }}
           className="card-img"
         />
-        <div>
-          {' '}
+        <div className="desc">
           <h2 className="h4 card-title">
             Vet Clinic Database
           </h2>
@@ -122,8 +120,7 @@ const Works = () => (
           style={{ backgroundImage: `url(${salama}` }}
           className="card-img"
         />
-        <div>
-          {' '}
+        <div className="desc">
           <h2 className="h4 card-title">
             Salama Conference
           </h2>
@@ -136,7 +133,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Salama-Conference" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
         </div>
       </div>
@@ -145,8 +142,7 @@ const Works = () => (
           style={{ backgroundImage: `url(${lead}` }}
           className="card-img"
         />
-        <div>
-          {' '}
+        <div className="desc">
           <h2 className="h4 card-title">
             Leaderboard App
           </h2>
@@ -159,7 +155,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Leaderboard-Project" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
         </div>
       </div>
@@ -168,8 +164,7 @@ const Works = () => (
           style={{ backgroundImage: `url(${list}` }}
           className="card-img"
         />
-        <div>
-          {' '}
+        <div className="desc">
           <h2 className="h4 card-title">
             To-do List
           </h2>
@@ -181,7 +176,7 @@ const Works = () => (
           </p>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/TO-DO-LIST" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Demo Link</strong></a>
+            <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
           </span>
 
         </div>

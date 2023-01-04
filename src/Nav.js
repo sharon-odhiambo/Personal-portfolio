@@ -8,7 +8,7 @@ import './App.css';
 const Navigation = () => (
   <>
     {['md'].map((expand) => (
-      <Navbar key={expand} expand="lg" className="position-sticky ps-0">
+      <Navbar key={expand} expand="lg">
         <Container>
           <Navbar.Brand href="#"><div className="logo p-0" /></Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -17,15 +17,14 @@ const Navigation = () => (
             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
             placement="end"
           >
-            <Offcanvas.Header closeButton variant="light" className="bg-dark text-light">
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="bg-light">
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 <div className="logo p-0" />
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className="d-flex justify-content-center align-items-center text-light">
-              <Nav className="d-flex justify-content-center align-items-center flex-grow-1 pe-5">
+              <Nav className="d-flex justify-content-center align-items-center flex-grow-1 pe-5 navtext">
                 <Nav.Link href="#homepage" className="text-light">Home</Nav.Link>
-                <Nav.Link href="#projects" className="text-light">Services</Nav.Link>
                 <Nav.Link href="#projects" className="text-light">Works</Nav.Link>
                 <Nav.Link href="#skills" className="text-light">Skills</Nav.Link>
                 <Nav.Link href="#about-me" className="text-light">About</Nav.Link>

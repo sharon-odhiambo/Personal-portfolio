@@ -343,19 +343,43 @@ body {
   border: 1px solid;
 }
 
+.btn-close,
+.navbar-toggler {
+  background-color: #ffa01b;
+}
+
 @media screen and (min-width: 700px) {
   .homepage {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
   }
 
-  .navbar-dark .navbar-nav {
+  .offcanvas-header {
+    display: none;
+  }
+
+  .navtext {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1000px;
-    border: 1px solid #a0a0a6;
-    background-color: #fefefd;
+  }
+
+  .offcanvas {
+    position: relative;
+    visibility: visible;
+    width: 500px;
+    height: 100px;
+  }
+
+  .offcanvas-end {
+    top: 0;
+    right: 0;
+    transform: translateX(0);
+  }
+
+  .offcanvas-body {
+    flex-grow: unset;
+    overflow: hidden;
   }
 
   .back {
@@ -389,9 +413,7 @@ body {
   .desc {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 10%;
   }
 
   .links {
