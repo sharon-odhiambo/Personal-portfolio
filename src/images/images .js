@@ -18,7 +18,7 @@ const react = require('./react.png');
 const red = require('./redux.png');
 const sq = require('./sql.png');
 const rb = require('./ruby.png');
-const res = require('./resume.docx');
+const res = require('./Sharon Odhiambo Resume (1).pdf');
 const jet = require('./jet-log.png');
 const budg = require('./budg.jpeg');
 
