@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  salama, world, space, lead, list, vet, jet, budg,
+  salama, world, space, lead, list, jet, budg,
 } from './images/images ';
 
 const Works = () => (
   <section id="projects" className="pt-5 ps-5 pe-5 mb-5 proj">
     <h2 className="h1 p-2 text-light d-flex justify-content-center head">
-      My recent works
+      My Recent Works
     </h2>
     <div className="other-projects container pt-5">
       <div className="card m-1 mb-5">
@@ -26,8 +26,8 @@ const Works = () => (
             or delete a plane from the database. The app is fully responsive
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/jet-log-frontend" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://the-awesome-berkay-akbas-site.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/jet-log-frontend" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://the-awesome-berkay-akbas-site.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
         </div>
       </div>
@@ -42,13 +42,13 @@ const Works = () => (
           </h2>
           <p className="w-75">
             Budget-App is a rails mobile app that enables the user to manage their budget
-            by seeing their expenditures and the specific items they spend on.
+            by seeing their expenditures and the specific items they spent on.
             The app authenticates the user
             and once logged in they can access their individual data.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/Rails-Budget-App" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/Rails-Budget-App" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Coming Soon</strong></a>
           </span>
         </div>
       </div>
@@ -68,8 +68,8 @@ const Works = () => (
             or use the search button to locate their country and find more details.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/World-Countries-Tour" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/World-Countries-Tour" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
         </div>
       </div>
@@ -88,29 +88,8 @@ const Works = () => (
             to book rockets, dragons and join selected space missions.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/SpaceX-Data" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
-          </span>
-
-        </div>
-      </div>
-      <div className="card m-1 mb-5">
-        <div
-          style={{ backgroundImage: `url(${vet}` }}
-          className="card-img"
-        />
-        <div className="desc">
-          <h2 className="h4 card-title">
-            Vet Clinic Database
-          </h2>
-          <p>
-            This is a Ruby-based relational database that creates
-            the data structure for a vet clinic.
-            It uses OOP principles to beautifully organize the animals, owners,
-            the clinic employees&apos; data and animal visits to different vets.
-          </p>
-          <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/Vet-clinic-database" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
+            <a href="https://github.com/sharon-odhiambo/SpaceX-Data" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
 
         </div>
@@ -132,8 +111,8 @@ const Works = () => (
             on different screen sizes.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/Salama-Conference" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/Salama-Conference" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
         </div>
       </div>
@@ -154,8 +133,8 @@ const Works = () => (
             to the leaderboard and update on refresh.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/Leaderboard-Project" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/Leaderboard-Project" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
         </div>
       </div>
@@ -175,8 +154,8 @@ const Works = () => (
             It also allows the user to check using a checkbox icon and clear the checked items.
           </p>
           <span className="d-flex links">
-            <a href="https://github.com/sharon-odhiambo/TO-DO-LIST" target="_blank" rel="noreferrer" className="link-button">See on Github</a>
-            <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="link-button"><strong>See Live</strong></a>
+            <a href="https://github.com/sharon-odhiambo/TO-DO-LIST" target="_blank" rel="noreferrer" className="link-button">Source</a>
+            <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
           </span>
 
         </div>

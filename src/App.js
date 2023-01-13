@@ -8,8 +8,8 @@ import Home from './Home';
 function App() {
   return (
     <div className="App">
-      <section id="homepage" className="container align-items-center p-0 landing">
-        <Navigation />
+      <Navigation />
+      <section id="homepage" className="landing">
         <Home />
       </section>
       <Works />

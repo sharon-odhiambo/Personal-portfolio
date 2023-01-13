@@ -6,7 +6,7 @@ const Contacts = () => (
     <div className="container border">
       <div className="d-flex flex-column align-items-center">
         {' '}
-        <h2 className="display-1 pt-5 ps-5 about-header text-light">
+        <h2 className="display-1 pt-5 ps-5 about-header">
           Want to Hire Me?
         </h2>
         {' '}

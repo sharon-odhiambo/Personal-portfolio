@@ -4,9 +4,9 @@ import {
 } from './images/images ';
 
 const Home = () => (
-  <div className="pt-5 gap-5 homepage">
+  <div className="pt-5 homepage">
     <div className="back">
-      <h1 className="pt-5 ps-4">
+      <h1 className="h1 ps-3 text-light hd1">
         Sharon
         {' '}
         <br />
@@ -16,7 +16,7 @@ const Home = () => (
       </h1>
     </div>
     <div className="d-flex flex-column hm">
-      <h1 className="display-2 main-header">
+      <h1 className="h1 mt-5 text-light hd">
         Full Stack Developer
       </h1>
       <p className="int mt-5 pt-5 line-height-5 w-50">
@@ -39,7 +39,6 @@ const Home = () => (
           </svg>
         </span>
       </a>
-      <div className="im align-self-end" />
     </div>
     <ul className="list-unstyled col-1 position-fixed bottom-50 end-0">
       <li id="github" className="pb-2">

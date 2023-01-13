@@ -9,7 +9,7 @@ const Navigation = () => (
   <>
     {['md'].map((expand) => (
       <Navbar key={expand} expand="lg">
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="#"><div className="logo p-0" /></Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
