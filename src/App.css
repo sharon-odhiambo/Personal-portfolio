@@ -303,8 +303,8 @@ body {
   font-size: 50px;
   position: relative;
   text-shadow:
-  -1px 1px 0 #d27e09,
-  -1px 1px 0 #612904;
+    -1px 1px 0 #d27e09,
+    -1px 1px 0 #612904;
 }
 
 .hd,
@@ -333,12 +333,6 @@ body {
   transition: transform 0.5s ease-out;
 }
 
-.hd:hover::after,
-.head:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
 .head::after {
   content: '';
   position: absolute;
@@ -354,6 +348,12 @@ body {
   background: #ffa01b;
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
+}
+
+.hd:hover::after,
+.head:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .row {
@@ -379,9 +379,9 @@ body {
 
 .slick-prev,
 .slick-next {
+  background: none !important;
   background-color: #d27e09;
-  color: #d27e09!important;
-  background: none!important;
+  color: #d27e09 !important;
 }
 
 .resume-btn a {
