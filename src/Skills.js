@@ -1,69 +1,165 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React, { PureComponent } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from 'react';
 import {
-  node, html, css, jav, ts,
-  react, red, rb,
+  node, html, css, jav,
+  react, red, rb, res,
 } from './images/images ';
 
-class Skills extends PureComponent {
-  render() {
-    const settings = {
-      infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: false,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-          },
-        },
-      ],
-    };
-    return (
-      <section id="skills">
-        {' '}
+const Skills = () => (
+  <div className="works-skills">
+    <div className="about-me-skills">
+      <div className="about-me w-100" id="about-me">
         <div>
-          <h2 className="text-light pt-5 pb-5 mb-5 d-flex justify-content-center head">My Technical Skills</h2>
-          <Slider {...settings}>
-            <div><img className="skill-img" src={jav} alt="skill" /></div>
-            <div><img className="skill-img" src={react} alt="skill" /></div>
-            <div><img className="skill-img" src={red} alt="skill" /></div>
-            <div><img className="skill-img" src={css} alt="skill" /></div>
-            <div><img className="skill-img" src={html} alt="skill" /></div>
-            <div><img className="skill-img" src={rb} alt="skill" /></div>
-            <div><img className="skill-img" src={ts} alt="skill" /></div>
-            <div><img className="skill-img" src={node} alt="skill" /></div>
-
-          </Slider>
+          <h3>About Myself</h3>
+          <p>
+            I&apos;m a software developer! I can help you build a product , feature or website
+            {' '}
+            <br />
+            Look through some of my work and experience.
+            {' '}
+            <br />
+            {' '}
+            If you like what you see and have a project you need coded,
+            don’t hestiate to contact me!
+          </p>
         </div>
+        <div className="lets-connect">LET&apos;S CONNECT</div>
+        <ul className="social-media-links">
+          <li>
+            {' '}
+            <a href="https://twitter.com/SharonVictor16_" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <img src="./images/twitter-icon.svg" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/linkedi-icon.svg" alt="LinkedIn" />
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/github.svg" alt="LinkedIn" />
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/medium.svg" alt="LinkedIn" />
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a href="https://github.com/sharon-odhiambo" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <img src="./images/angelist.svg" alt="Github" />
+            </a>
+          </li>
+        </ul>
+        <div className="button-resume"><a href={res} target="_blank" rel="noreferrer"><span>Get my Resume</span></a></div>
+      </div>
+      <div className="skill-section-items">
+        <ul>
+          <li>
+            <div className="languages-dropdown-bar">
+              <p className="d-flex justify-content-center align-items-center">
+                Langauges
+              </p>
+              <div className="skill-items">
+                <ul>
+                  <li>
+                    <span>
+                      <img src={jav} alt="js-icon" />
+                      Javascript
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <img src={rb} alt="js-icon" />
+                      Ruby
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <img src={html} alt="html-icon" />
+                      HTML
+                    </span>
 
-      </section>
+                  </li>
+                  <li>
+                    <span>
+                      <img src={css} alt="css-icon" />
+                      CSS
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="languages-dropdown-bar">
+              <p className="d-flex justify-content-center align-items-center">
+                Technologies
+              </p>
+              <div className="skill-items">
+                <ul>
+                  <li>
+                    <span>
+                      <img src={react} alt="js-icon" />
+                      React
+                    </span>
 
-    );
-  }
-}
+                  </li>
+                  <li>
+                    <span>
+                      <img src={red} alt="html-icon" />
+                      Redux
+                    </span>
+
+                  </li>
+                  <li>
+                    <span>
+                      <img src={node} alt="css-icon" />
+                      Nodejs
+                    </span>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="languages-dropdown-bar">
+              <p className="d-flex justify-content-center align-items-center">
+                Skills
+              </p>
+              <div className="skill-items">
+                <ul>
+                  <li>
+                    <span>
+                      Time Management
+                    </span>
+
+                  </li>
+                  <li>
+                    <span>
+                      Remote Pair-Programming
+                    </span>
+
+                  </li>
+                  <li>
+                    <span>
+                      Problem-solving
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+);
 
 export default Skills;
