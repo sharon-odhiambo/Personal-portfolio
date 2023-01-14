@@ -25,6 +25,12 @@ const Works = () => (
             Additional authorization allows the admin to add
             or delete a plane from the database. The app is fully responsive
           </p>
+          <ul className="skill">
+            <li>React</li>
+            <li>Rails</li>
+            <li>Bootstrap</li>
+            <li>PostgreSQL</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/jet-log-frontend" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://the-awesome-berkay-akbas-site.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
@@ -46,6 +52,12 @@ const Works = () => (
             The app authenticates the user
             and once logged in they can access their individual data.
           </p>
+          <ul className="skill">
+            <li>React</li>
+            <li>Rails</li>
+            <li>Bootstrap</li>
+            <li>PostgreSQL</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Rails-Budget-App" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Coming Soon</strong></a>
@@ -67,6 +79,10 @@ const Works = () => (
             The user can scroll through to find their country
             or use the search button to locate their country and find more details.
           </p>
+          <ul className="skill">
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/World-Countries-Tour" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://my-world-tour.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
@@ -87,6 +103,10 @@ const Works = () => (
             The application provides commercial and scientific space travel services
             to book rockets, dragons and join selected space missions.
           </p>
+          <ul className="skill">
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/SpaceX-Data" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://spacetraveleryun.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
@@ -110,6 +130,12 @@ const Works = () => (
             to allow great performance and accessibility
             on different screen sizes.
           </p>
+          <ul className="skill">
+            <li>Html</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>css</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Salama-Conference" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://aesthetic-salama-conference.netlify.app/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
@@ -132,6 +158,11 @@ const Works = () => (
             Implements CRUD to allow the user to add a score
             to the leaderboard and update on refresh.
           </p>
+          <ul className="skill">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Leaderboard-Project" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://sharon-odhiambo.github.io/Leaderboard-Project/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>
@@ -153,6 +184,11 @@ const Works = () => (
             remove tasks from the display list and update the same in the local storage.
             It also allows the user to check using a checkbox icon and clear the checked items.
           </p>
+          <ul className="skill">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/TO-DO-LIST" target="_blank" rel="noreferrer" className="link-button">Source</a>
             <a href="https://sharon-odhiambo.github.io/TO-DO-LIST/" target="_blank" rel="noreferrer" className="link-button"><strong>Live</strong></a>

@@ -9,6 +9,7 @@ body {
   font-size: 18px;
   overflow-x: hidden;
   margin: auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App {
@@ -82,6 +83,82 @@ body {
   width: 150px;
 }
 
+.headline {
+  background-image: url('./images/header-bg.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  width: 100%;
+}
+
+.headline-content {
+  width: 100%;
+}
+
+.headline-content div {
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+}
+
+.headline-content div h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+  left: 24px;
+  margin-bottom: 0;
+}
+
+.headline-content div p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 327px;
+  height: 156px;
+  color: #344563;
+  left: 24px;
+  margin-bottom: 20px;
+}
+
+.lets-connect {
+  width: 160px;
+  height: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  gap: 15px;
+  padding-left: 0;
+}
+
+.social-media-links {
+  width: 170.17px;
+  height: 20px;
+  order: 3;
+  flex-grow: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  left: 24px;
+  top: 470px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
 .back h1 span {
   border-bottom: 3px solid #efa649;
 }
@@ -134,7 +211,7 @@ body {
 }
 
 .proj {
-  background-color: #fff;
+  background: #e5e5e5;
 }
 
 .other-projects {
@@ -146,8 +223,10 @@ body {
 }
 
 .card {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease 0s;
@@ -155,10 +234,23 @@ body {
   width: 100%;
   height: 600px;
   align-items: center;
-  border: 1px solid #ffa01b;
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.skill {
+  display: flex;
+  gap: 5%;
+  list-style: none;
+}
+
+.skill li {
+  text-decoration: none;
+  align-items: center;
+  padding: 12px;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
 .card img {
@@ -282,7 +374,7 @@ body {
   text-decoration: none;
   display: flex;
   gap: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   cursor: pointer;
   border-radius: 6px;
@@ -294,7 +386,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #efa649;
+  background-color: #6070ff;
   color: #fff;
   padding: 10%;
 }
@@ -303,8 +395,8 @@ body {
   font-size: 50px;
   position: relative;
   text-shadow:
-    -1px 1px 0 #d27e09,
-    -1px 1px 0 #612904;
+    -1px 1px 0 #6070ff,
+    -1px 1px 0 #7f8cff;
 }
 
 .hd,
@@ -312,8 +404,8 @@ body {
   font-size: 50px;
   position: relative;
   text-shadow:
-    -1px 1px 0 #d27e09,
-    -1px 1px 0 #612904;
+    -1px 1px 0 #6070ff,
+    -1px 1px 0 #7f8cff;
 }
 
 .hd::after {
@@ -326,9 +418,9 @@ body {
   right: 10%;
   transform: scaleX(0);
   box-shadow:
-    0 3px 0 #efa649,
-    0 5px 0 #a35623;
-  background: #ffa01b;
+    0 3px 0 #6070ff,
+    0 5px 0 #7f8cff;
+  background: #344563;
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
