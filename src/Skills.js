@@ -1,14 +1,17 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import {
-  node, html, css, jav,
+  FaGithub, FaTwitter, FaLinkedinIn, FaAngellist, FaMediumM,
+} from 'react-icons/fa';
+import {
+  node, html, jav,
   react, red, rb, res,
 } from './images/images ';
 
 const Skills = () => (
   <div className="works-skills">
     <div className="about-me-skills">
-      <div className="about-me w-100" id="about-me">
+      <div className="about-me" id="about-me">
         <div>
           <h3>About Myself</h3>
           <p>
@@ -28,37 +31,38 @@ const Skills = () => (
           <li>
             {' '}
             <a href="https://twitter.com/SharonVictor16_" target="_blank" rel="noopener noreferrer" className="social-media-link">
-              <img src="./images/twitter-icon.svg" alt="Twitter" />
+              <FaTwitter />
             </a>
           </li>
           <li>
             {' '}
-            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
-              <img src="./images/linkedi-icon.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/sharonn-odhiambo/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn />
             </a>
           </li>
           <li>
             {' '}
-            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
-              <img src="./images/github.svg" alt="LinkedIn" />
+            <a href="https://github.com/sharon-odhiambo" target="_blank" rel="noopener noreferrer">
+              <FaGithub />
             </a>
           </li>
           <li>
             {' '}
-            <a href="https://www.linkedin.com/in/sharon-odhiambo-4333a0163/" target="_blank" rel="noopener noreferrer">
-              <img src="./images/medium.svg" alt="LinkedIn" />
+            <a href="https://angel.co/u/sharon-odhiambo-1" target="_blank" rel="noopener noreferrer">
+              <FaAngellist />
             </a>
           </li>
           <li>
             {' '}
             <a href="https://github.com/sharon-odhiambo" target="_blank" rel="noopener noreferrer" className="social-media-link">
-              <img src="./images/angelist.svg" alt="Github" />
+              <FaMediumM />
             </a>
           </li>
         </ul>
         <div className="button-resume"><a href={res} target="_blank" rel="noreferrer"><span>Get my Resume</span></a></div>
       </div>
       <div className="skill-section-items">
+        <h3 className="d-flex justify-content-center align-items-center">Technical Skills</h3>
         <ul>
           <li>
             <div className="languages-dropdown-bar">
@@ -66,33 +70,25 @@ const Skills = () => (
                 Langauges
               </p>
               <div className="skill-items">
-                <ul>
-                  <li>
-                    <span>
-                      <img src={jav} alt="js-icon" />
-                      Javascript
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <img src={rb} alt="js-icon" />
-                      Ruby
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <img src={html} alt="html-icon" />
-                      HTML
-                    </span>
+                <li>
+                  <span>
+                    <img src={jav} alt="js-icon" />
+                    Javascript
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <img src={rb} alt="js-icon" />
+                    Ruby
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <img src={html} alt="html-icon" />
+                    HTML
+                  </span>
 
-                  </li>
-                  <li>
-                    <span>
-                      <img src={css} alt="css-icon" />
-                      CSS
-                    </span>
-                  </li>
-                </ul>
+                </li>
               </div>
             </div>
           </li>
@@ -102,57 +98,27 @@ const Skills = () => (
                 Technologies
               </p>
               <div className="skill-items">
-                <ul>
-                  <li>
-                    <span>
-                      <img src={react} alt="js-icon" />
-                      React
-                    </span>
+                <li>
+                  <span>
+                    <img src={react} alt="js-icon" />
+                    React
+                  </span>
 
-                  </li>
-                  <li>
-                    <span>
-                      <img src={red} alt="html-icon" />
-                      Redux
-                    </span>
+                </li>
+                <li>
+                  <span>
+                    <img src={red} alt="html-icon" />
+                    Redux
+                  </span>
 
-                  </li>
-                  <li>
-                    <span>
-                      <img src={node} alt="css-icon" />
-                      Nodejs
-                    </span>
+                </li>
+                <li>
+                  <span>
+                    <img src={node} alt="css-icon" />
+                    Nodejs
+                  </span>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="languages-dropdown-bar">
-              <p className="d-flex justify-content-center align-items-center">
-                Skills
-              </p>
-              <div className="skill-items">
-                <ul>
-                  <li>
-                    <span>
-                      Time Management
-                    </span>
-
-                  </li>
-                  <li>
-                    <span>
-                      Remote Pair-Programming
-                    </span>
-
-                  </li>
-                  <li>
-                    <span>
-                      Problem-solving
-                    </span>
-                  </li>
-                </ul>
+                </li>
               </div>
             </div>
           </li>

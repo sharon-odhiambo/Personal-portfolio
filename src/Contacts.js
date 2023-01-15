@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Contacts = () => (
-  <form className="form" id="form" name="form" action="https://formspree.io/f/xeqndgga" method="post">
+  <form className="form pt-2" id="form" name="form" action="https://formspree.io/f/xeqndgga" method="post">
     <h4>Contact Me</h4>
-    <p>
+    <p className="pt-2 ps-1">
       If you have an application you are interested in developing,
       a feature that you need built or a project that needs coding. I’d love to help with it
       {' '}

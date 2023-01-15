@@ -9,7 +9,7 @@ const Works = () => (
       My Recent Works
     </h2>
     <div className="other-projects container pt-5">
-      <div className="card m-1 mb-5">
+      <div className="card1 m-1 mb-5">
         <div
           style={{ backgroundImage: `url(${jet}` }}
           className="card-img"
@@ -37,7 +37,7 @@ const Works = () => (
           </span>
         </div>
       </div>
-      <div className="card m-1 mb-5">
+      <div className="card1 m-1 mb-5">
         <div
           style={{ backgroundImage: `url(${budg}` }}
           className="card-img"
