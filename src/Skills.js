@@ -14,8 +14,18 @@ const Skills = () => (
       <div className="about-me" id="about-me">
         <div>
           <h3>About Myself</h3>
-          <p>
-            I&apos;m a software developer! I can help you build a product , feature or website
+          <p className="w-75">
+            I&apos;m a full stack developer passionate about applying my data-driven creativity
+            to deliver innovative solutions streamlined with organizational needs and success.
+            <br />
+            My key languages and technologies are:
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Rails</li>
+            </ul>
+            Additionally I possess excellent communication, problem-solving,  and mentorship skills.
             {' '}
             <br />
             Look through some of my work and experience.
@@ -73,12 +83,12 @@ const Skills = () => (
                 <li>
                   <span>
                     <img src={jav} alt="js-icon" />
-                    Javascript
+                    <span>Javascript</span>
                   </span>
                 </li>
                 <li>
                   <span>
-                    <img src={rb} alt="js-icon" />
+                    <img src={rb} alt="ruby-icon" />
                     Ruby
                   </span>
                 </li>
