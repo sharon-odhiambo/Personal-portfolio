@@ -62,11 +62,11 @@ const Skills = () => (
         <div className="button-resume"><a href={res} target="_blank" rel="noreferrer"><span>Get my Resume</span></a></div>
       </div>
       <div className="skill-section-items">
-        <h3 className="d-flex justify-content-center align-items-center">Technical Skills</h3>
+        <h3 className="d-flex">Technical Skills</h3>
         <ul>
           <li>
             <div className="languages-dropdown-bar">
-              <p className="d-flex justify-content-center align-items-center">
+              <p>
                 Langauges
               </p>
               <div className="skill-items">
@@ -94,7 +94,7 @@ const Skills = () => (
           </li>
           <li>
             <div className="languages-dropdown-bar">
-              <p className="d-flex justify-content-center align-items-center">
+              <p>
                 Technologies
               </p>
               <div className="skill-items">
