@@ -760,6 +760,8 @@ input[type="email"] {
 .skill {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  gap: 3%;
   list-style: none;
 }
 
