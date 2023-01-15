@@ -18,7 +18,7 @@ const Works = () => (
           <h2 className="h4 card-title">
             Jet Log
           </h2>
-          <p className="w-75">
+          <p>
             Jet Log is a full stack application built through peer collaboration
             and it&apos;s an aeroplane renting app that allows the user to view available planes,
             login to make a reservation or see their reservations.
@@ -28,7 +28,6 @@ const Works = () => (
           <ul className="skill">
             <li>React</li>
             <li>Rails</li>
-            <li>Bootstrap</li>
             <li>PostgreSQL</li>
           </ul>
           <span className="d-flex links">
@@ -46,7 +45,7 @@ const Works = () => (
           <h2 className="h4 card-title">
             Rails Budget App
           </h2>
-          <p className="w-75">
+          <p>
             Budget-App is a rails mobile app that enables the user to manage their budget
             by seeing their expenditures and the specific items they spent on.
             The app authenticates the user
@@ -55,12 +54,11 @@ const Works = () => (
           <ul className="skill">
             <li>React</li>
             <li>Rails</li>
-            <li>Bootstrap</li>
             <li>PostgreSQL</li>
           </ul>
           <span className="d-flex links">
             <a href="https://github.com/sharon-odhiambo/Rails-Budget-App" target="_blank" rel="noreferrer" className="link-button">Source</a>
-            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Coming Soon</strong></a>
+            <a href="https://glacial-mesa-01327.herokuapp.com/" target="_blank" rel="noreferrer" className="link-button"><strong>Live Soon</strong></a>
           </span>
         </div>
       </div>
@@ -73,7 +71,7 @@ const Works = () => (
           <h2 className="h4 card-title">
             World Countries Tour
           </h2>
-          <p className="w-75">
+          <p>
             This is a mobile app that displays list of world countries
             fetched from the restcountries API.
             The user can scroll through to find their country
